@@ -11,9 +11,9 @@ addons:
         packages:
             - g++-4.8
 install:
-    - npm install -g vuepress
+    - yarn install
 script:
-    - npm run docs:build
+    - yarn build
 cache:
     directories:
         - "node_modules"
@@ -22,9 +22,9 @@ notifications:
 deploy:
     provider: pages
     skip-cleanup: true
-    local_dir: docs/.vuepress/dist
+    local_dir: dist/
     github-token: $GITHUB_TOKEN
-    repo: martynau/martynau.github.io
+    repo: martynau/deploy
     keep-history: true
     target-branch: master
     on:
