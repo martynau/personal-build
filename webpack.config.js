@@ -9,7 +9,8 @@ var version = 1;
 
 module.exports = {
   entry: {
-    main: './src/js/app.js'
+    main: './src/js/app.js',
+    notes: './src/js/notes.js'
   },
   output: {
     filename: '../dist/js/[name]' + '-v' + version + '.js',
@@ -37,7 +38,7 @@ module.exports = {
       new UglifyJsPlugin({
         cache: true,
         parallel: true,
-        sourceMap: true // set to true if you want JS source maps
+        sourceMap: false // set to true if you want JS source maps
       }),
       new OptimizeCSSAssetsPlugin({})
     ]
@@ -50,7 +51,12 @@ module.exports = {
         chunkFilename: '[id].css'
     }),
     new CopyPlugin([
-      { from: 'src/html/*', to: '../dist/', flatten: true }
-    ], { logLevel: 'debug' })
+      { from: 'src/html/*', to: '../dist/', flatten: true },
+      { from: 'src/static/root/*', to: '../dist/', flatten: true },
+      { from: 'img/**', to: '../dist/', context: 'src/static/' },
+      { from: 'files/**', to: '../dist/', context: 'src/static/' }
+    ]
+    /* , { logLevel: 'debug' }*/
+    ) 
   ]
 };

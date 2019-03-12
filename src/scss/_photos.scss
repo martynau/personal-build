@@ -1,0 +1,48 @@
+.full-width {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+#photos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#photos-cont {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#photos-full {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p.img-caption {
+    color: white;
+    padding: 24px 16px 20px 16px;;
+    background: rgba(21, 40, 73, 0.8);
+    display: block;
+    margin-bottom: 60px;
+}
+
+p.img-caption span {
+    margin: 0 16px 0 0;
+    background: rgba(255,255,255,1);
+    color: rgb(21, 40,73);
+    padding: 8px 10px 6px 10px;
+    border-radius: 2px;
+}
+.full-width>.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.full-width>.row>.col-12 {
+  padding-right: 0;
+  padding-left: 0;  
+}

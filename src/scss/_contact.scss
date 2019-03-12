@@ -1,0 +1,35 @@
+#contact-section label {
+    width: 120px;
+    float: left;
+    clear: both;
+  }
+  #contact-section input, textarea {
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  #contact-section textarea {
+    height: 120px;
+  }
+  
+  #contact-section .btn {
+    float: left;
+    clear: both;
+    margin-top: 30px;
+  }
+
+  #contact .btn {
+    color: #152849;
+    border: 1px solid #4f5155;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgba(3, 27, 78, 0.7);
+  }
+  
+  #contact .btn:hover {
+    color: white;
+    border: 1px solid #152849;
+    outline: none;
+    background-color: rgba(21, 40, 73, 0.5);
+  }

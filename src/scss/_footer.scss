@@ -1,0 +1,47 @@
+footer .btn {
+    border: 2px solid rgb(21, 40, 73);
+    text-transform: none;
+    color: rgb(21, 40, 73);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin: 0 0 16px 0;
+    /* background: linear-gradient(90deg,#0069ff,#1633ff); */
+  }
+  
+  footer .btn:hover {
+    border: 2px solid rgb(21, 40, 73);
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 40, 73);
+    border-radius: 4px;
+    /* background: linear-gradient(90deg,#0069ff,#1633ff); */
+  }
+
+  .icons8-linkedin {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IgogICAgIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIKICAgICB2aWV3Qm94PSIwIDAgMjYgMjYiCiAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDsiPjxnIGlkPSJzdXJmYWNlMSI+PHBhdGggc3R5bGU9IiAiIGQ9Ik0gMjEuMTI1IDAgTCA0Ljg3NSAwIEMgMi4xODM1OTQgMCAwIDIuMTgzNTk0IDAgNC44NzUgTCAwIDIxLjEyNSBDIDAgMjMuODE2NDA2IDIuMTgzNTk0IDI2IDQuODc1IDI2IEwgMjEuMTI1IDI2IEMgMjMuODE2NDA2IDI2IDI2IDIzLjgxNjQwNiAyNiAyMS4xMjUgTCAyNiA0Ljg3NSBDIDI2IDIuMTgzNTk0IDIzLjgxNjQwNiAwIDIxLjEyNSAwIFogTSA4LjAzOTA2MyAyMi4wNzAzMTMgTCA0IDIyLjA3MDMxMyBMIDMuOTc2NTYzIDkuOTc2NTYzIEwgOC4wMTU2MjUgOS45NzY1NjMgWiBNIDUuOTE3OTY5IDguMzk0NTMxIEwgNS44OTQ1MzEgOC4zOTQ1MzEgQyA0LjU3NDIxOSA4LjM5NDUzMSAzLjcyMjY1NiA3LjQ4NDM3NSAzLjcyMjY1NiA2LjM1MTU2MyBDIDMuNzIyNjU2IDUuMTkxNDA2IDQuNjAxNTYzIDQuMzEyNSA1Ljk0NTMxMyA0LjMxMjUgQyA3LjI4OTA2MyA0LjMxMjUgOC4xMTMyODEgNS4xOTE0MDYgOC4xNDA2MjUgNi4zNTE1NjMgQyA4LjE0MDYyNSA3LjQ4NDM3NSA3LjI4NTE1NiA4LjM5NDUzMSA1LjkxNzk2OSA4LjM5NDUzMSBaIE0gMjIuMDQyOTY5IDIyLjA3MDMxMyBMIDE3Ljk2ODc1IDIyLjA3MDMxMyBMIDE3Ljk2ODc1IDE1LjUgQyAxNy45Njg3NSAxMy45MTAxNTYgMTcuNTQ2ODc1IDEyLjgyODEyNSAxNi4xMjUgMTIuODI4MTI1IEMgMTUuMDM5MDYzIDEyLjgyODEyNSAxNC40NTMxMjUgMTMuNTU4NTk0IDE0LjE3MTg3NSAxNC4yNjU2MjUgQyAxNC4wNjY0MDYgMTQuNTE5NTMxIDE0LjAzOTA2MyAxNC44NjcxODggMTQuMDM5MDYzIDE1LjIyMjY1NiBMIDE0LjAzOTA2MyAyMi4wNzAzMTMgTCA5Ljk0NTMxMyAyMi4wNzAzMTMgTCA5LjkyMTg3NSA5Ljk3NjU2MyBMIDE0LjAxNTYyNSA5Ljk3NjU2MyBMIDE0LjAzOTA2MyAxMS42ODM1OTQgQyAxNC41NjI1IDEwLjg3NSAxNS40MzM1OTQgOS43MzA0NjkgMTcuNTE5NTMxIDkuNzMwNDY5IEMgMjAuMTA1NDY5IDkuNzMwNDY5IDIyLjAzOTA2MyAxMS40MTc5NjkgMjIuMDM5MDYzIDE1LjA0Njg3NSBMIDIyLjAzOTA2MyAyMi4wNzAzMTMgWiAiPjwvcGF0aD48L2c+PC9zdmc+') 50% 50% no-repeat;
+    background-size: 100%;
+  }
+  
+  footer {
+    background: white;
+    padding: 30px 0;
+    border-top: 1px solid rgba(21, 40, 73, 0.6);
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-sticky {
+    margin-bottom: 100px;
+  }
+  
+  footer.sticky {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+  }  
