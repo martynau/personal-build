@@ -24,7 +24,7 @@
     "copy-webpack-plugin": "^5.0.1",
     "css-loader": "^1.0.0",
     "exports-loader": "^0.7.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
     "lite-server": "^2.4.0",
     "merge-stream": "^1.0.1",
