@@ -7935,8 +7935,9 @@ text-table@~0.2.0:
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
 "text@github:requirejs/text":
-  version "2.0.15"
-  resolved "https://codeload.github.com/requirejs/text/tar.gz/d04de4ffd7bf5ba6cb80cdca2d40d4f6f52a1b1f"
+  version "2.0.16"
+  uid "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a"
+  resolved "https://codeload.github.com/requirejs/text/tar.gz/3f9d4c19b3a1a3c6f35650c5788cbea1db93197a"
 
 tfunk@^3.0.1:
   version "3.1.0"
