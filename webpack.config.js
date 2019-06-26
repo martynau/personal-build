@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const CopyPlugin = require('copy-webpack-plugin');
+const UnCSSPlugin = require('uncss-webpack-plugin');
 
 var version = 1;
 
@@ -30,7 +31,11 @@ module.exports = {
       },      
       {
       test: /\.(scss)$/,
-      use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+      use: [
+        MiniCssExtractPlugin.loader,
+        'css-loader',
+        'sass-loader'
+      ]
     }]
   },
   optimization: {
@@ -44,6 +49,7 @@ module.exports = {
     ]
   },  
   plugins: [
+    new UnCSSPlugin({}),
     new MiniCssExtractPlugin({
         // Options similar to the same options in webpackOptions.output
         // both options are optional

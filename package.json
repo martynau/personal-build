@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
-    "build": "webpack --mode development",
+    "build": "webpack --mode development && node uncss.js",
     "develop": "webpack --mode development --watch",
-    "production": "webpack --mode production"
+    "production": "webpack --mode production  && node uncss.js"
   },
   "author": "martynau <martynau@gmail.com>",
   "license": "ISC",
@@ -38,6 +38,7 @@
     "style-loader": "^0.23.1",
     "text": "github:requirejs/text",
     "uglifyjs-webpack-plugin": "^2.1.3",
+    "uncss-webpack-plugin": "^0.2.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.0",
     "webpack-stream": "^5.2.1"

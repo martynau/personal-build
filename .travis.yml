@@ -13,7 +13,7 @@ addons:
 install:
     - yarn install
 script:
-    - yarn build
+    - yarn production
 cache:
     directories:
         - "node_modules"
