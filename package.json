@@ -35,7 +35,7 @@
     "popper.js": "^1.15.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
+    "style-loader": "^1.1.3",
     "text": "github:requirejs/text",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "uncss-webpack-plugin": "^0.2.0",
