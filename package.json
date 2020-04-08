@@ -39,8 +39,8 @@
     "text": "github:requirejs/text",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "uncss-webpack-plugin": "^0.2.0",
+    "webpack-cli": "^3.3.11",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.8",
     "webpack-stream": "^5.2.1"
   }
 }
