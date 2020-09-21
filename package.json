@@ -13,34 +13,34 @@
   "author": "martynau <martynau@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "npm": "^6.14.6"
+    "npm": "^6.14.8"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
-    "autoprefixer": "^9.7.6",
+    "autoprefixer": "^10.0.0",
     "babel-loader": "^8.1.0",
     "bootstrap": "^4.5.2",
     "copy-webpack-plugin": "^6.1.1",
     "css-loader": "^4.3.0",
-    "exports-loader": "^0.7.0",
+    "exports-loader": "^1.1.0",
     "jquery": "^3.5.1",
     "jquery.easing": "^1.4.1",
     "lite-server": "^2.5.4",
     "merge-stream": "^2.0.0",
-    "mini-css-extract-plugin": "^0.9.0",
+    "mini-css-extract-plugin": "^0.11.2",
     "node-sass": "^4.14.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
     "path": "^0.12.7",
     "popper.js": "^1.16.1",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^8.0.2",
+    "postcss-loader": "^4.0.2",
+    "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "text": "github:requirejs/text",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "uncss-webpack-plugin": "^0.2.0",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.11",
-    "webpack-stream": "^5.2.1"
+    "webpack-cli": "^3.3.12",
+    "webpack-stream": "^6.1.0"
   }
 }
