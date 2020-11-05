@@ -22,7 +22,7 @@
     "babel-loader": "^8.1.0",
     "bootstrap": "^4.5.2",
     "copy-webpack-plugin": "^6.1.1",
-    "css-loader": "^4.3.0",
+    "css-loader": "^5.0.1",
     "exports-loader": "^1.1.0",
     "jquery": "^3.5.1",
     "jquery.easing": "^1.4.1",
